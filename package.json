@@ -6,15 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.489.0",
     "@clerk/nextjs": "^4.29.2",
+    "@prisma/client": "^5.8.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "lucide-react": "^0.309.0",
     "next": "14.0.4",
+    "prisma": "^5.8.0",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.0",
